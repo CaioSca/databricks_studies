@@ -14,6 +14,13 @@ sources: https://www.youtube.com/watch?v=9yKecTXW2pY, https://www.youtube.com/wa
 - workspaces e notebooks ficam conectados a clusters específicos e tem seus dbfs próprios
 
 
+
+# Notebooks
+- Escolher linguagem padrão do notebook
+- magic comand %linguagem define a linguagem da célula, podem ser exceção ao padrão
+- notebook deve ter um cluster associado a ele, se não, computação é inviável
+- da pra desvincular e vincular de novo... reiniciar... etc.
+
 # Secrets
 - configurável através da CLI ou da própria Azure
 - instalar CLI do databricks
